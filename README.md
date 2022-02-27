@@ -1,7 +1,7 @@
 # Battleship Game for Android
 
 ```diff
-#### @@ Written By Meital Kozhidov
+@@ Written By Meital Kozhidov @@
 ##### The Open University, Israel
 ##### April 2021
 ```
