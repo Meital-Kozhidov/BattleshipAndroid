@@ -39,9 +39,10 @@ implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
 ```
 
 add to Manifest.xml:
-* in `<application>` tag: this allows network access to the app.
-```sh
+* in `<application>` tag: 
+```diff
 android:networkSecurityConfig="@xml/network_security_config"
+# this allows network access to the app.
 ```
 
 * before `</application>` tag:
@@ -54,9 +55,10 @@ android:networkSecurityConfig="@xml/network_security_config"
 <activity android:name=".LoginActivity"> </activity>
 ```
 
-* after `</application>` tag: this allows internet premission.
-```sh
+* after `</application>` tag:
+```diff
 <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+# this allows internet premission.
 ```
 
 create new folder `app/src/res/xml` and new file `network_security_config.xml`.
