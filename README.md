@@ -70,7 +70,7 @@ copy this to `network_security_config.xml`:
 </network-security-config>
 ```
 
-> optional:
+### optional:
 > in `app/src/res/values` change `purple_500` code to `#5D1049`
 and `purple_700` to `#7D1662`.
 
