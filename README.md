@@ -11,7 +11,7 @@
 - last scores (10 last games)
 
 ## Technologies
-- Client side - written in `Java` (and `XML`), using `Android Studio` with Android 9.0 SDK (API level 28).
+- Client side - written in `Java` (and `XML`), using Android Studio with Android 9.0 SDK (API level 28).
 - Server side - written in `PHP` using `XAMPP` `PhpMyAdmin` and `MySql` Database.
 - Client and server communication is via `REST API` (using Retrofit client).
 
@@ -70,7 +70,7 @@ copy this to `network_security_config.xml`:
 </network-security-config>
 ```
 
-##### optional:
-in `app/src/res/values` change `purple_500` code to `#5D1049`
+> optional:
+> in `app/src/res/values` change `purple_500` code to `#5D1049`
 and `purple_700` to `#7D1662`.
 
