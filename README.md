@@ -28,7 +28,7 @@
 * create new folder in res named `anim`. copy files from `battleship_app/res/anim` to `app/src/res/anim`.
 * copy the pictures from `battleship_app/res/drawble` folder to `app/src/res/drawble`.
 
-add to build.gradle the dependencies:
+add to `build.gradle` the dependencies:
 
 ```sh
 implementation 'io.reactivex.rxjava2:rxjava:2.2.2'
