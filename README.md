@@ -23,9 +23,9 @@
 
 ## Steps to run the Battleship app:
 * open new project in Android Studio named "Battleship"
-* copy java files from `battleship_app/java to app/src/main/java/com.example.battleship`
-* copy xml layout files from `battleship_app/res/layout to app/src/res/layout`
-* create new folder in res named `anim`. copy files from `battleship_app/res/anim` to `app/src/res/anim`.
+* copy `java` files from `battleship_app/java to app/src/main/java/com.example.battleship`
+* copy `xml` layout files from `battleship_app/res/layout to app/src/res/layout`
+* create new folder in `res` named `anim`. copy files from `battleship_app/res/anim` to `app/src/res/anim`.
 * copy the pictures from `battleship_app/res/drawble` folder to `app/src/res/drawble`.
 
 add to `build.gradle` the dependencies:
