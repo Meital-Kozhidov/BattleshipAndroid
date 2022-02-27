@@ -30,7 +30,7 @@
 
 add to build.gradle the dependencies:
 
-```xml
+```sh
 implementation 'io.reactivex.rxjava2:rxjava:2.2.2'
 implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
 implementation 'com.squareup.retrofit2:retrofit:2.3.0'
@@ -46,7 +46,7 @@ android:networkSecurityConfig="@xml/network_security_config"
 ```
 
 * before `</application>` tag:
-```sh
+```xml
 <activity android:name=".GameActivity"> </activity>
 <activity android:name=".TopTenActivity"> </activity>
 <activity android:name=".LastTenActivity"> </activity>
