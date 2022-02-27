@@ -11,20 +11,19 @@
 - last scores (10 last games)
 
 ## Technologies
-- Client side - written in Java (and XML), Created using Android Studio with minimum SDK of 
-Android 9.0 (API level 28).
-- Server side - written in PHP using XAMPP PhpMyAdmin and MySql Database.
-- Client and server communication is via REST API (using Retrofit client).
+- Client side - written in `Java` (and XML), using Android Studio with Android 9.0 SDK (API level 28).
+- Server side - written in `PHP` using `XAMPP` `PhpMyAdmin` and `MySql` Database.
+- Client and server communication is via `REST API` (using Retrofit client).
 
 ## PDF files (in hebrew)
-- Description to user including pictures in "Description_to_user.pdf"
-- System's structure and flow between the different components in "system_structure.pdf"
+- Description to user including pictures in `Description_to_user.pdf`
+- System's structure and flow between the different components in `system_structure.pdf`
 
 ## Steps to run the Battleship app:
 * open new project in Android Studio named "Battleship"
 * copy java files from `battleship_app/java to app/src/main/java/com.example.battleship`
 * copy xml layout files from `battleship_app/res/layout to app/src/res/layout`
-* create new folder in res named `"anim"`. copy files from `battleship_app/res/anim` to `app/src/res/anim`.
+* create new folder in res named `anim`. copy files from `battleship_app/res/anim` to `app/src/res/anim`.
 * copy the pictures from `battleship_app/res/drawble` folder to `app/src/res/drawble`.
 
 add to build.gradle the dependencies:
