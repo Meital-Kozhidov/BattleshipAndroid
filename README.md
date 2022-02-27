@@ -22,10 +22,10 @@ Android 9.0 (API level 28).
 
 ## Steps to run the Battleship app:
 * open new project in Android Studio named "Battleship"
-* copy java files from battleship_app/java to app/src/main/java/com.example.battleship
-* copy xml layout files from battleship_app/res/layout to app/src/res/layout
-* create new folder in res named "anim". copy files from battleship_app/res/anim to app/src/res/anim.
-* copy the pictures from battleship_app/res/drawble folder to app/src/res/drawble.
+* copy java files from `battleship_app/java to app/src/main/java/com.example.battleship`
+* copy xml layout files from `battleship_app/res/layout to app/src/res/layout`
+* create new folder in res named `"anim"`. copy files from `battleship_app/res/anim` to `app/src/res/anim`.
+* copy the pictures from `battleship_app/res/drawble` folder to `app/src/res/drawble`.
 
 add to build.gradle the dependencies:
 
@@ -58,8 +58,8 @@ android:networkSecurityConfig="@xml/network_security_config"
 <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 ```
 
-create new folder app/src/res/xml and new file network_security_config.xml.
-copy this to network_security_config.xml:
+create new folder `app/src/res/xml` and new file `network_security_config.xml`.
+copy this to `network_security_config.xml`:
 ```sh
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
@@ -72,6 +72,6 @@ copy this to network_security_config.xml:
 ```
 
 ##### optional:
-in app/src/res/values change purple_500 code to #5D1049
-and purple_700 to #7D1662.
+in `app/src/res/values` change `purple_500` code to `#5D1049`
+and `purple_700` to `#7D1662`.
 
