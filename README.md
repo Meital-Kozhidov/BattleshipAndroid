@@ -40,7 +40,7 @@ implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
 
 add to `Manifest.xml`:
 * in `<application>` tag: 
-```xml
+```diff
 android:networkSecurityConfig="@xml/network_security_config"
 # this allows network access to the app.
 ```
@@ -63,7 +63,7 @@ android:networkSecurityConfig="@xml/network_security_config"
 
 create new folder `app/src/res/xml` and new file `network_security_config.xml`.
 copy this to `network_security_config.xml`:
-```sh
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
     <base-config cleartextTrafficPermitted="true">
