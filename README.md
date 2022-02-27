@@ -38,9 +38,9 @@ implementation 'com.squareup.retrofit2:retrofit:2.3.0'
 implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
 ```
 
-add to Manifest.xml:
+add to `Manifest.xml`:
 * in `<application>` tag: 
-```diff
+```xml
 android:networkSecurityConfig="@xml/network_security_config"
 # this allows network access to the app.
 ```
