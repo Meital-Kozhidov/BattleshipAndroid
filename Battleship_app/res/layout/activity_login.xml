@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/loginmsg"
+        android:background="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="80px"
+        android:fontFamily="sans-serif-medium"
+        android:text="LOG IN:" />
+    <EditText
+        android:id="@+id/usernamelogin"
+        android:layout_below="@id/loginmsg"
+        android:layout_centerInParent="true"
+        android:layout_marginVertical="60px"
+        android:textStyle="bold"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:fontFamily="sans-serif-medium"
+        android:layout_width="600px"
+        android:layout_height="130px"
+        android:textAlignment="center"
+        android:textSize="65px"
+        android:inputType="text"
+        android:hint="username" />
+    <EditText
+        android:id="@+id/passwordlogin"
+        android:layout_below="@id/usernamelogin"
+        android:layout_marginVertical="30px"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textAlignment="center"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_width="600px"
+        android:layout_height="130px"
+        android:inputType="text"
+        android:textSize="65px"
+        android:hint="password"/>
+    <ImageButton
+        android:id="@+id/loginBtn"
+        android:layout_below="@id/passwordlogin"
+        android:layout_marginVertical="30px"
+        android:layout_centerInParent="true"
+        android:background="@drawable/sbtn"
+        android:layout_width="140px"
+        android:layout_height="110px"/>
+    <Button
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/return_login"
+        android:layout_alignParentBottom="true"
+        android:text="RETURN"
+        android:backgroundTint="@color/black"/>
+</RelativeLayout>

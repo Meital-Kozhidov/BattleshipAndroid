@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/userscreen">
+
+    <TextView
+        android:id="@+id/lasttentitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600px"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:text="Last 10 Games Results:"
+        android:fontFamily="cursive"
+        android:textSize="100px" />
+
+    <TextView
+        android:id="@+id/lasttentable"
+        android:layout_width="match_parent"
+        android:layout_height="850px"
+        android:layout_below="@id/lasttentitle"
+        android:layout_marginVertical="40px"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#000000"
+        android:textSize="65px"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/returnBtn"
+        android:layout_marginVertical="30px"
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:layout_below="@id/lasttentable"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium"
+        android:textAlignment="center"
+        android:backgroundTint="@color/black"
+        android:textColor="#ffffff"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:text="return"
+        android:onClick="returnUserScreen"/>
+
+
+</RelativeLayout>

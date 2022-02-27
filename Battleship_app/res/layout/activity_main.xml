@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/greeting"
+        android:background="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="80px"
+        android:fontFamily="cursive"
+        android:text="Welcome to Battleship \nPlease sign up / log in:" />
+    <TextView
+        android:id="@+id/signup"
+        android:layout_below="@id/greeting"
+        android:layout_centerInParent="true"
+        android:layout_marginVertical="60px"
+        android:textStyle="bold"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:fontFamily="sans-serif-medium"
+        android:layout_width="600px"
+        android:layout_height="130px"
+        android:textAlignment="center"
+        android:textSize="65px"
+        android:inputType="text"
+        android:text="Sign Up"
+        android:onClick="signUp"/>
+    <TextView
+        android:id="@+id/login"
+        android:layout_below="@id/signup"
+        android:layout_marginVertical="30px"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textAlignment="center"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_width="600px"
+        android:layout_height="130px"
+        android:inputType="text"
+        android:textSize="65px"
+        android:text="Log In"
+        android:onClick="logIn"/>
+</RelativeLayout>

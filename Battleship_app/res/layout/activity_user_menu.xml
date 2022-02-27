@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/userscreen">
+
+    <TextView
+        android:id="@+id/usermsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600px"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:text="Hello user! \nWins: 0"
+        android:fontFamily="casual"
+        android:textSize="70px" />
+
+    <TextView
+        android:tag="newgame"
+        android:id="@+id/newgame"
+        android:layout_below="@id/usermsg"
+        android:layout_centerInParent="true"
+        android:layout_marginVertical="40px"
+        android:textStyle="bold"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-medium"
+        android:layout_width="600px"
+        android:layout_height="130px"
+        android:textAlignment="center"
+        android:textSize="65px"
+        android:text="New game"/>
+    <TextView
+        android:tag="lastten"
+        android:id="@+id/lastten"
+        android:layout_below="@id/newgame"
+        android:layout_marginVertical="30px"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-medium"
+        android:layout_width="600px"
+        android:layout_height="130px"
+        android:textSize="65px"
+        android:text="My 10 last scores"/>
+    <TextView
+        android:tag="topten"
+        android:id="@+id/topten"
+        android:layout_below="@id/lastten"
+        android:layout_marginVertical="30px"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textAlignment="center"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:layout_width="600px"
+        android:layout_height="130px"
+        android:textSize="65px"
+        android:text="Top 10 players"/>
+    <TextView
+        android:tag="logout"
+        android:id="@+id/logout"
+        android:layout_below="@id/topten"
+        android:layout_marginVertical="30px"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-medium"
+        android:layout_width="600px"
+        android:layout_height="130px"
+        android:textSize="65px"
+        android:text="Log out"/>
+
+</RelativeLayout>
