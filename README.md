@@ -3,7 +3,7 @@
 ```diff
 @@ Written By Meital Kozhidov @@
 @@ The Open University, Israel @@
-@@         April 2021 @@
+@@ April 2021 @@
 ```
 
 ## Features
