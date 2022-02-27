@@ -1,8 +1,10 @@
 # Battleship Game for Android
 
-#### Written By Meital Kozhidov
+```diff
+#### @@ Written By Meital Kozhidov
 ##### The Open University, Israel
 ##### April 2021
+```
 
 ## Features
 - 1 vs 1 remote classic 5X5 Battleship game 
@@ -29,7 +31,7 @@
 add to build.gradle the dependencies:
 
 ```sh
-+ implementation 'io.reactivex.rxjava2:rxjava:2.2.2'
+implementation 'io.reactivex.rxjava2:rxjava:2.2.2'
 implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
 implementation 'com.squareup.retrofit2:retrofit:2.3.0'
 implementation 'com.squareup.retrofit2:retrofit:2.3.0'
