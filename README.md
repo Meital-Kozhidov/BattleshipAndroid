@@ -2,9 +2,6 @@
 
 ```html
 <p style="color:Tomato;">Hello World</p>
-/*@@ Written By Meital Kozhidov @@
-@@ The Open University, Israel @@
-@@ April 2021 @@*/
 ```
 
 ## Features
