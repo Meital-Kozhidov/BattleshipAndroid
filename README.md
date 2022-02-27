@@ -1,6 +1,6 @@
 # Battleship Game for Android
 
-<p style="color:#ffffff;">Hello World</p>
+<span style="color:#ffffff;">Hello World</span>
 
 ```diff
 @@ Written By Meital Kozhidov @@
