@@ -1,6 +1,7 @@
 # Battleship Game for Android
 
-```diff
+```html
+<h1 style="color:Tomato;">Hello World</h1>
 @@ Written By Meital Kozhidov @@
 @@ The Open University, Israel @@
 @@ April 2021 @@
